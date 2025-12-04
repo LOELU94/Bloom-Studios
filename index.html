@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meine Kreativwerkstatt</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fdfaff; color: #333; }
+    header { background: #ffcfe3; color: #333; padding: 30px; text-align: center; border-bottom: 3px solid #ffdff0; }
+    header h1 { font-family: 'Dancing Script', cursive; font-size: 3rem; margin-bottom: 5px; }
+    nav { background: #ffe9f5; padding: 12px; text-align: center; border-bottom: 1px solid #ffd1eb; }
+    nav a { color: #cc6fa8; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    .hero { padding: 40px 20px; text-align: center; background: #fff3fb; }
+    .hero-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px; }
+    .hero-gallery div { background: white; padding: 8px; border-radius: 6px; border: 1px solid #f4cbe4; }
+    .section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .gallery div { background: white; padding: 10px; border: 1px solid #f4cbe4; border-radius: 6px; }
+    footer { background: #ffcfe3; color: #333; text-align: center; padding: 20px; margin-top: 40px; border-top: 3px solid #ffdff0; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meine Kreativwerkstatt</h1>
+    <p>Fotografien • Gemälde • Kerzen • Pflanzenableger</p>
+  </header>
+
+  <nav>
+    <a href="#about">Über mich</a>
+    <a href="#produkte">Produkte</a>
+    <a href="#shop">Shop</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section class="section" id="shop">
+    <h2>Shop</h2>
+    <p>Wähle eine Kategorie, um die Produkte zu entdecken:</p>
+    <div class="gallery">
+      <div>
+        <h3><a href="#fotografien">Fotografien</a></h3>
+        <p>Künstlerische Fotos und Motive.</p>
+      </div>
+      <div>
+        <h3><a href="#gemaelde">Gemälde</a></h3>
+        <p>Originale und handgemalte Werke.</p>
+      </div>
+      <div>
+        <h3><a href="#kerzen">Kerzen</a></h3>
+        <p>Handgegossen und individuell gestaltet.</p>
+      </div>
+      <div>
+        <h3><a href="#pflanzen">Pflanzenableger</a></h3>
+        <p>Gesunde und liebevoll gezogene Ableger.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="hero">
+    <h2>Willkommen!</h2>
+    <p>Ein Einblick in meine kreativen Arbeiten:</p>
+
+    <div class="hero-gallery">
+      <div><img src="https://via.placeholder.com/300x200?text=Foto" alt="Fotografie" width="100%"></div>
+      <div><img src="https://via.placeholder.com/300x200?text=Gem%C3%A4lde" alt="Gemälde" width="100%"></div>
+      <div><img src="https://via.placeholder.com/300x200?text=Kerze" alt="Kerze" width="100%"></div>
+      <div><img src="https://via.placeholder.com/300x200?text=Pflanze" alt="Pflanzenableger" width="100%"></div>
+    </div>
+  </div>
+
+  <section class="section" id="about">
+    <h2>Über mich</h2>
+    <p>Hallo! Ich bin [Dein Name] und liebe es, kreative Dinge zu erschaffen – von Fotografien über selbstgemachte Kunst bis hin zu Kerzen und Pflanzenablegern.</p>
+  </section>
+
+  <section class="section" id="produkte">
+    <h2>Produkte</h2>
+    <div class="gallery">
+      <div>
+        <h3>Fotografien</h3>
+        <p>Bald verfügbar!</p>
+      </div>
+      <div>
+        <h3>Gemälde</h3>
+        <p>Bald verfügbar!</p>
+      </div>
+      <div>
+        <h3>Kerzen</h3>
+        <p>Bald verfügbar!</p>
+      </div>
+      <div>
+        <h3>Pflanzenableger</h3>
+        <p>Bald verfügbar!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Für Bestellungen oder Fragen: <br><strong>[Deine E-Mail-Adresse]</strong></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Meine Kreativwerkstatt</p>
+  </footer>
+</body>
+</html>
